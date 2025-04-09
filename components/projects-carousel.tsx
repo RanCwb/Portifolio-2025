@@ -21,7 +21,7 @@ export function ProjectsCarousel() {
         "A dashboard for an e-commerce platform with real-time analytics, product management, and user accounts.",
       image: dashboard,
       tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoUrl: "https://vercel.com/rancwbs-projects/products-dashboard",
+      demoUrl: "https://products-dashboard-two.vercel.app/",
       githubUrl: "https://github.com/RanCwb/products-dashboard",
     },
     {
