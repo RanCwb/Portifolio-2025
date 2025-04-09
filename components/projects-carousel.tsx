@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ChevronLeft, ChevronRight, ExternalLink, Github } from "lucide-react"
 import Image from "next/image"
+import dashboard from "../assets/dashboard.jpeg"
 
 export function ProjectsCarousel() {
   const { t } = useLanguage()
@@ -15,13 +16,13 @@ export function ProjectsCarousel() {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "E-Commerce Dashboard",
       description:
-        "A full-featured e-commerce platform with payment integration, user authentication, and admin dashboard.",
-      image: "/placeholder.svg?height=300&width=500",
+        "A dashboard for an e-commerce platform with real-time analytics, product management, and user accounts.",
+      image: dashboard,
       tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoUrl: "#",
-      githubUrl: "#",
+      demoUrl: "https://vercel.com/rancwbs-projects/products-dashboard",
+      githubUrl: "https://github.com/RanCwb/products-dashboard",
     },
     {
       title: "Task Management App",
